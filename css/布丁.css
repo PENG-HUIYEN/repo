@@ -1,0 +1,74 @@
+.banner {
+  width: 100%;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-txt {
+  position: absolute;
+  color: #fff;
+  margin-top: -15%;
+  margin-left: 40%;
+}
+
+.cat-container {
+  width: 960px;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  background-color: #ffffff;
+  /* border: #666 solid 1px; */
+}
+.cat-txt h2 {
+  text-align: center;
+}
+
+.cat-txt p {
+  margin: 25px;
+  padding: 5px;
+}
+
+.cat-img {
+  padding: 2px;
+}
+
+/* 下方圖片 */
+
+.other-container {
+  width: 960px;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  /* border: #666 solid 1px; */
+}
+
+.icon {
+  width: 3%;
+  margin: auto;
+}
+
+.other-img {
+  display: flex;
+  width: 80%;
+  /* box-sizing: border-box; */
+  margin: auto;
+  /* border: #666 solid 1px; */
+}
+
+.other-img .other-imgl,
+.other-imgp,
+.other-imgf {
+  margin: 20px;
+}
+
+.other-img a {
+  opacity: 0.4;
+}
+
+.other-img a:hover {
+  opacity: 1;
+  transition: 0.8s;
+}

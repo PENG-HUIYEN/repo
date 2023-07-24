@@ -1,0 +1,138 @@
+body {
+  background-color: #fefae0;
+}
+
+.main-header {
+  background-color: #9d7b59;
+}
+
+.main-header .container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-header .logo {
+  width: 100px;
+  height: 50px;
+  margin-top: -20px;
+}
+
+.main-header .logo img {
+  width: 100%;
+  vertical-align: middle;
+}
+.main-header .main-nav {
+  margin: auto;
+}
+
+.main-header .main-nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 3em;
+  position: relative;
+  font-weight: 100;
+}
+
+.main-header .main-nav a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -5px;
+  height: 0;
+  border-bottom: 1px solid #fff;
+  transition: 0.3s;
+}
+
+.main-header .main-nav a:hover:after {
+  left: 0;
+  right: 0;
+}
+
+main img {
+  width: 100%;
+}
+
+/* 頁尾 */
+.main-footer {
+  background-color: #9d7b59;
+  margin-top: 100px;
+}
+
+.main-footer h3 {
+  text-align: center;
+  text-decoration: underline solid 1px;
+  text-underline-offset: 7px;
+}
+
+.main-footer .footer-container p,
+.main-footer .footer-container h3 {
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+/* justify-content: space-around;  平均寬度 */
+
+.footer-logo img {
+  width: 150px;
+  margin-left: -30px;
+  margin-top: 30px;
+}
+
+.focus img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-top: 80px;
+  margin-left: -65px;
+  text-align: center;
+}
+
+.button a {
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  line-height: 40px;
+  color: #333;
+  background-color: transparent;
+  border: 1px solid #333;
+  transition: all 0.3s linear;
+}
+
+.button a:hover {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-triangle {
+  display: flex;
+  justify-content: center;
+}
+.triangle-fis,
+.triangle-se {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 43.3px 25px;
+  border-color: transparent transparent #9d7b59 transparent;
+  margin-top: -42px;
+  margin-left: 60px;
+}
+
+.server p {
+  text-align: center;
+}

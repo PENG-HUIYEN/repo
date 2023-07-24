@@ -1,0 +1,70 @@
+.banner-txt {
+  color: #ffffff;
+  text-align: center;
+  margin-top: -150px;
+}
+
+.banner-img img {
+  width: 100%;
+  height: 20%;
+}
+
+/* 主要區域 */
+
+.content {
+  margin: auto;
+  width: 1200px;
+}
+
+.main-container {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.main-input .txt {
+  font-size: 18px;
+}
+
+.main-input {
+  line-height: 1.5em;
+  padding: 10px;
+}
+
+.main-pic img {
+  width: 400px;
+  height: 400px;
+}
+
+.main-contener .main-input form {
+  align-items: center;
+}
+
+.main-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.main-pic .main-button a {
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  line-height: 40px;
+  color: #333;
+  background-color: transparent;
+  border: 1px solid #333;
+  transition: all 0.3s linear;
+  margin: 100px;
+}
+
+.main-button a:hover {
+  text-decoration: none;
+  background-color: #9d7b59;
+  color: #fff;
+}
